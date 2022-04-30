@@ -1,5 +1,9 @@
 .App {
+  /* overflow: hidden; */
   text-align: center;
+  white-space: initial;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .App-logo {
@@ -35,4 +39,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: #61dafb;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 4px;
+  font-size: larger;
+}
+
+input {
+  width: 100px;
+  height: 45px;
+  margin: 1%;
+  font-size: larger;
+}
+
+.label {
+  font-size: larger;
+}
+
+form {
+  border: 0 0 2px 0 solid black;
+  width: 100%;
+}
+
+.text-area {
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+  white-space: initial;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 2%;
+  background-color: lightblue;
 }
