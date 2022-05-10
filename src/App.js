@@ -1,7 +1,6 @@
 import "./App.css";
 import React from "react";
 import { useState } from "react";
-
 import data from "./data";
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <section>
-        <h1>RANDOM TEXT GENERATOR</h1>
+        <h1>RANDOM-TEXT-GENERATOR</h1>
         <h4>Select between 1 to 16</h4>
         <form action="#">
           <label className="label" htmlFor="size">
